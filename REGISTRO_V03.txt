@@ -1,0 +1,5 @@
+AIRAM V0.3 — 24/11/2026
+Usuário aprovou a direção visual da V0.2 ("Gostei"), solicitou checklist de personalização e pacote integral de continuidade com jogos prontos para teste, exceto Monta Look. Isso não libera lançamento, Supabase ou Central.
+Preservados os 15 estados, motor WebGL/Canvas e artes da V0.2. Novo games.js com 26 minijogos locais e duas atividades AFTER neutras; Monte Seu Bailão já existente mantido. Total catálogo: 27 jogáveis para homologação, 1 pendente. Ajuste de listagem, janelas, timers e CSS; sem dados ou rede.
+Verificados 30 caminhos em Chromium via HTML incorporado, 0 exceções JS observadas. Limites: ritmo, puzzle, memória parcialmente exercitados; WebGL, áudio audível, dispositivo real e Git não testados. Mecânicas preliminares, não jogos finais homologados.
+Nenhuma publicação ou banco realizado.

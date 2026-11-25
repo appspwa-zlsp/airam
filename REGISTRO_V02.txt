@@ -1,0 +1,6 @@
+AIRAM V0.2 — Registro incremental
+Novo projeto; V0.1.2 intacto.
+15 estados cenográficos, seis personagens, cinco ambientes AFTER, 28 interfaces de jogos, jukebox cultural, rádio independente, Monte Seu Bailão PNG, temas e parecer TXT/JSON. Estúdio de Eras aplicado.
+Motor WebGL original e alternativa Canvas; Pannellum indisponível. Geometria provisória, não panoramas fotográficos.
+Teste Node sintaxe e Chromium HTML incorporado: Canvas, 360°, arrasto sem clique, hotspot, 28 jogos, navegação, janelas, tema/modelo/editor. Zero exceções JS observadas. WebGL/HTTP hospedado/toque físico pendentes.
+Sem banco, Central, integrações, conteúdo adulto real ou publicação pela IA. Leia README.

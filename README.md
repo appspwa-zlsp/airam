@@ -1,26 +1,32 @@
-# AIRAM — VISUAL LAB V0.1.2 — RAIZ ÚNICA DEV | NÃO PUBLICAR COMO PRODUTO FINAL
-Protótipo estático de homologação. Nenhuma operação de negócio real. Não há banco, Central, APIs externas, cadastro, chat ou áudio real. Não inclua dados pessoais. O código e os placeholders do AFTER são neutros; as rotas são públicas em uma hospedagem pública. `noindex` não é controle de acesso. Não use este build como teaser oficial nem como proteção etária.
+# AIRAM — Visual Lab V0.3 Imersivo + Fliperama
 
-## Abrir no computador
-Extraia o ZIP inteiro e abra `index.html` em um navegador moderno. Se o navegador limitar arquivos locais, use uma hospedagem estática de teste. Não requer npm, Node, PHP, XAMPP ou instalação de dependências para funcionar.
+Protótipo estático para homologação, não lançamento oficial. Novo repositório, sem alterar V0.1.2.
 
-## Subir no repositório especial
-1. Crie um repositório GitHub exclusivo de homologação (preferencialmente privado quando compatível com a hospedagem). Não misture com os projetos existentes.
-2. Extraia o ZIP; envie **todos os arquivos diretamente na raiz**, sem pastas. As imagens também ficam ao lado do index.html. Não envie o ZIP como único arquivo. O arquivo `.nojekyll` é opcional para outros hosts.
-3. Se usar GitHub Pages e o plano/repositório permitir, em Settings > Pages selecione Deploy from a branch, branch main e /(root), salve. Alternativamente, conecte o repo ao Cloudflare Pages com build estático sem comando de build e diretório de saída raiz (conforme a interface atual). Não configure nenhuma chave. Hospedagem pública não é privada mesmo com repositório privado.
-4. Abra a URL gerada pela hospedagem no celular e computador. O primeiro acesso abre o teaser. Toque em Entrar no posto e depois Entrar na conveniência.
-5. As rotas usam hash e caminhos relativos; a mesma base funciona em subdiretório de GitHub Pages. Se a hospedagem mantiver uma versão antiga, recarregue a página.
+## Publicação de teste pelo próprio usuário
+1. Extraia o ZIP. Selecione todos os arquivos (não há subpastas).
+2. Crie um novo repositório GitHub para o laboratório. Faça upload dos arquivos na raiz da branch main.
+3. Settings > Pages > Deploy from a branch > main > /(root), quando disponível no seu plano. O site poderá ficar publicamente acessível; no plano Free, Pages normalmente requer repositório público. Não confunda noindex com segurança. Não suba o backup privado ou o PDF respondido.
+4. Abra o endereço do Pages e toque em Entrar no posto. Arraste o cenário, toque nos objetos ou use setas, mapa e zoom. A engrenagem abre o laboratório visual. Para voltar ao teaser, use mapa > Voltar ao teaser. Recarregue para sair da simulação de teaser fechado.
+5. Exporte seu parecer pelo Visual Lab. O TXT/JSON contém apenas configurações e observações de design locais. Não inclua dados pessoais.
 
-## Avaliação
-No cabeçalho, abra o ícone de ajustes deslizantes (Visual Lab). Troque tema, era, espaçamento, raio, fonte, navegação, efeitos e estado do lançamento. Escolha a tela, escreva um parecer e salve. Exporte TXT e envie na próxima rodada. Preferências e pareceres são locais por navegador/origem; não sincronizam entre aparelhos; limpar armazenamento apaga os registros. Não coloque informações íntimas ou credenciais nas observações. O teaser público simulado não impede acesso direto às demais rotas; na publicação real será um build independente.
+## Escopo
+15 estados cenográficos (inclui teaser), 27 jogos locais jogáveis para testes e Monta Look pendente, seis personagens geométricos, cinco ambientes AFTER neutros, editor de cartaz fictício exportável, modo foto público, temas, mapa acessível e parecer local. Jukebox pública abre a prévia demonstrativa da playlist funk LGBT+; rádio separado para AIRAM. Estúdio de Eras (nome definitivo). Som sintético original nos jogos, sem faixa musical protegida. Nenhum login, chat, pagamento, serviço de dados ou verificação de idade. Sem ativos adultos reais.
 
-Os seis modelos são geometria 3D simplificada desenhada em Canvas, não modelos GLB nem retratos. Abra Ver em 3D; arraste por mouse/toque, use botões ou teclado. Modelos futuros serão integrados após recebimento, com teste de desempenho e proteção dos ativos classificados. O cenário do posto é uma ilustração vetorial original provisória; não fotografia nem render arquitetônico final. As artes oficiais selecionadas foram convertidas em WebP. Fotos e artes de figurino mais ousado não foram incluídas neste pacote.
+## Decisão técnica / divergência do PDF
+O PDF aprovou Pannellum e panoramas. A biblioteca não pôde ser obtida neste ambiente (DNS sem acesso ao CDN). Esta prova usa um motor original WebGL de geometria 3D, com câmera fixa em cada ponto e rotação horizontal completa, e um renderer de perspectiva Canvas 2D independente para aparelhos sem WebGL. Não é um panorama fotográfico/equiretangular, nem caminhada livre. A estética é deliberadamente geométrica provisória, sem acabamento fotorrealista. A alternativa técnica deve ser avaliada na homologação. Os conteúdos e coordenadas dos hotspots são separados do motor em scenes.js, facilitando migração posterior para Pannellum ou imagens panorâmicas reais. Sem bibliotecas/CDN externos.
 
-## O que não está implementado
-Jogos são telas por família; não são jogos jogáveis completos. Spotify é widget ilustrativo, sem link; jukebox cultural apenas em O Grave Também é Nosso, separada de Ouça e Prévias; pré-save, WhatsApp, login, CRM, conteúdo clínico, moderação, exportações de artes, playlists, áudio, PWA offline, notificações, instalação em todos os navegadores e segurança de produção estão pendentes. O manifesto é preliminar. O cofre de saúde não recebe registros reais. O laboratório muda CSS e estado de prévia; alguns elementos cenográficos e imagens têm paleta fixa intencional. Sem rastreamento e sem chamadas de rede externas pelo código.
+## Testes da V0.2 (histórico preservado)
+Node --check nos JS. Chromium: navegação HTTP local bloqueada por política do ambiente; teste via HTML incorporado em memória com scripts e CSS do pacote. WebGL indisponível nesse Chromium, renderer Canvas testado. Inspeção visual desktop 1100x720 e mobile emulado 393x873. Verificados: arrastar com mouse e não disparar modal, rotação completa, reset, jukebox, retorno à câmera, abertura de hotspots públicos e 27 jogos locais jogáveis para testes e Monta Look pendente, cinco salas AFTER, tema claro, modelo 3D e editor de cartaz. Zero exceções JS observadas nos fluxos executados. Acessibilidade completa, WebGL, toque em celular físico, performance e hospedagem GitHub Pages ainda pendentes. Não é certificação de segurança ou prontidão de produção.
 
-## Testes
-Node: verificação sintática e execução de renderizadores em DOM simulado (TESTES.json). O Chromium do ambiente bloqueou a navegação local e file://, impossibilitando teste visual e de gestos. Confira especialmente overflow, contraste, tamanhos e funcionamento em Android, iOS e desktop. Nenhuma publicação realizada. A Central e Supabase ficam adiados até homologação visual final expressa.
+## Arquivos
+index.html, style.css, app.js, scenes.js, engine.js, canvas-engine.js, catalog.js, games.js, model.js, manifesto e artes oficiais públicas na raiz. O código não requer build ou servidor de aplicação. Manifesto básico, sem service worker/offline nesta fase, para evitar cache de homologações antigas.
 
-## Atualização V0.1.2 — raiz única
-Inclui a versão mais recente de app.js com a jukebox cultural. Todas as referências antes em assets/ foram convertidas em caminhos relativos à raiz (HTML, JS, CSS e manifesto). Se já enviou uma versão anterior, substitua os arquivos de mesmo nome e envie as imagens na raiz. Uma pasta assets antiga pode permanecer sem uso. Não envie o ZIP fechado ao repositório. O arquivo .nojekyll é opcional para este pacote.
+## Próximas fases
+Somente após homologação visual expressa: Supabase, Central PHP/XAMPP e integrações reais. Spotify oficial e links dependem de dados fornecidos. AFTER real e chat bloqueados até aferição confiável e moderação, cofre de saúde separado e revisão profissional. Não utilizar este laboratório como site de produção. Nenhum lançamento autorizado.
+
+## V0.3 — Como testar jogos
+Entre no posto > Conveniência > Fliperama/Playground. Se o hotspot estiver fora da câmera, use o mapa > Fliperama > Playground. Cada título abre uma janela com instruções e controles; fechar retorna ao cenário. Monte Seu Bailão, Batalha de Memes e POV exportam PNG; Monta Look informa que está em preparação. Jogos locais por turnos funcionam no mesmo aparelho. Nos desafios sonoros, use as pistas visuais caso o áudio não funcione. A Sala dos Jogos do AFTER tem somente cartas/roleta neutras, sem liberação adulta. Sem ranking online, cadastro, apostas ou prêmio financeiro.
+
+A V0.3 acrescenta games.js, adapta o roteamento e o estilo do modal, atualiza a identificação visual; não modifica scenes.js, motor 3D, identidade ou arquivos originais. Os 27 títulos têm mecânicas de teste locais e simplificadas. O conteúdo editorial, as regras finais, a qualidade dos jogos, o modo multiplayer e a integração futura com progressão dependem de homologação. Ritmo é sequência de sinais, e Descobre o sample usa padrões sintéticos, não música comercial. Jogos sociais dependem de validação verbal; os resultados não são persistidos.
+
+Testes V0.3: Chromium com HTML incorporado, viewport mobile 390×844 e desktop 1280×800, WebGL desativado. Verificadas 30 rotas (28 públicas, incluindo Monta Look pendente, e 2 atividades neutras AFTER). 27 jogos públicos interagidos, com final de ciclo em quizzes/cartas/simulações/arcades selecionados; downloads PNG de três criadores; teste parcial em ritmo, puzzle e memória. Zero exceções JS observadas. Não é teste físico, verificação de áudio audível, de performance ou produção. Consulte relatório no pacote privado.
