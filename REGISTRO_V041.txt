@@ -1,0 +1,9 @@
+AIRAM Visual Lab V0.4.1 — protótipo de homologação
+Base: V0.3 preservada no histórico; versões V0.3.1 e V0.4 locais consolidadas nesta rodada.
+- Teaser com capa PUTARIA ADITIVADA e identidade AIRAM; textura, assinatura e escudo oficiais já existentes.
+- Cenografia original: iluminação vermelha e verde, quadriculados, detalhes cromados, bombas, totens e carro de som genérico com hotspot público para a prévia musical.
+- Quatro destaques no fliperama: Aditivada Turbo (arraste horizontal), Mandelão Rush e Batalha de Frequência (notas móveis), Duelo de Passinho (gestos).
+- Pausa, retomada, reinício, pontuação e controles móveis. 27 jogos locais e Monta Look pendente; demais mecânicas preservadas.
+- Personagem 3D e imagens adicionais do avatar/fundo mantidos no pacote local, não publicados nesta rodada; perfil indica preparação. Não há ativos externos novos.
+- TESTES_V041.json documenta verificação em Chromium emulado com Canvas, não teste completo ou dispositivo físico. Seis blobs de execução conferidos contra a cópia testada.
+- Sem Supabase, Central, login real, ranking online, apostas, integração real ou lançamento oficial. Main atualizada com autorização de publicação do protótipo.

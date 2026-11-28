@@ -1,4 +1,4 @@
-# AIRAM — Visual Lab V0.3 Imersivo + Fliperama
+# AIRAM — Visual Lab V0.4.1 Imersivo + Mobile Arcade
 
 Protótipo estático para homologação, não lançamento oficial. Novo repositório, sem alterar V0.1.2.
 
@@ -30,3 +30,10 @@ Entre no posto > Conveniência > Fliperama/Playground. Se o hotspot estiver fora
 A V0.3 acrescenta games.js, adapta o roteamento e o estilo do modal, atualiza a identificação visual; não modifica scenes.js, motor 3D, identidade ou arquivos originais. Os 27 títulos têm mecânicas de teste locais e simplificadas. O conteúdo editorial, as regras finais, a qualidade dos jogos, o modo multiplayer e a integração futura com progressão dependem de homologação. Ritmo é sequência de sinais, e Descobre o sample usa padrões sintéticos, não música comercial. Jogos sociais dependem de validação verbal; os resultados não são persistidos.
 
 Testes V0.3: Chromium com HTML incorporado, viewport mobile 390×844 e desktop 1280×800, WebGL desativado. Verificadas 30 rotas (28 públicas, incluindo Monta Look pendente, e 2 atividades neutras AFTER). 27 jogos públicos interagidos, com final de ciclo em quizzes/cartas/simulações/arcades selecionados; downloads PNG de três criadores; teste parcial em ritmo, puzzle e memória. Zero exceções JS observadas. Não é teste físico, verificação de áudio audível, de performance ou produção. Consulte relatório no pacote privado.
+
+## V0.4.1 — versão atual na main
+Entre no posto > Conveniência > Fliperama > Playground. Quatro destaques jogáveis: Turbo, Rush, Passinho e Frequência. Use toque, arraste, pausa e reinício. No pátio, o novo carro de som genérico abre a prévia de música pelo hotspot ou mapa. A navegação por objetos e o restante do catálogo foram preservados. Monta Look e o personagem 3D definitivo continuam pendentes.
+
+A entrada usa a capa, assinatura, escudo e textura oficiais já presentes no repositório. As imagens adicionais de referência do avatar e fundo ficam no pacote local, sem dependência de arquivo ausente no runtime. Nenhum modelo externo foi incorporado.
+
+Ver REGISTRO_V041.txt e TESTES_V041.json para alterações e limites dos testes. A publicação na main é exclusivamente protótipo de homologação; não ativa backend, Central, integrações reais nem lançamento oficial.

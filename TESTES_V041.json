@@ -1,0 +1,22 @@
+{
+  "version": "V0.4.1",
+  "checks": [
+    "turbo inicia, pausa, retoma, aceita comando, reinicia",
+    "rush inicia, pausa, retoma, aceita comando, reinicia",
+    "passinho inicia, pausa, retoma, aceita comando, reinicia",
+    "frequency inicia, pausa, retoma, aceita comando, reinicia"
+  ],
+  "catalog": 28,
+  "look": "pendente",
+  "page_errors": [],
+  "environment": "Chromium emulado 320x568 e 390x844, Canvas; HTML incorporado, sem WebGL, sem iOS/Android físicos. Teste parcial, não vitória integral.",
+  "extra": {
+    "public_scenes": 10,
+    "paredao": "map hotspot opened music",
+    "public_game_routes": 28,
+    "turbo_touch": "real emulated touch drag moves the car",
+    "rush_end": "six misses end the game",
+    "neutral_after_scenes": 5,
+    "errors": []
+  }
+}
